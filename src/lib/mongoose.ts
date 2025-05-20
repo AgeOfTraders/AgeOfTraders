@@ -77,7 +77,7 @@ interface MongoDBConnectionOptions extends ConnectOptions {
 /**
  * Global Mongoose connection cache type definition
  * @global
- * @typedef {Object} MongooseCache
+ * @type {Object} MongooseCache
  * @property {Mongoose|null} conn - Active Mongoose connection
  * @property {Promise<Mongoose>|null} promise - Pending connection promise
  */
